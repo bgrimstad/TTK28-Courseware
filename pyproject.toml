@@ -1,0 +1,14 @@
+[project]
+name = "TTK28-Courseware"
+version = "0.1.0"
+description = "Project for courseware of TTK28 - Modeling with neural networks"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",            # For scientific compuation
+    "pandas",           # For data processing and analysis
+    "scikit-learn",     # For machine learning
+    "matplotlib",       # For plotting
+    "torch",            # For deep learning 
+    "notebook",         # For Jupyter notebooks
+]

@@ -4,10 +4,10 @@ Courseware for TTK28 - Modeling with neural networks
 
 ## Installation (to run locally)
 
-1. Download and install Anaconda (https://www.anaconda.com/).
-2. Create a new conda environment: `conda env create -f environment.yml`. 
-This will create a new environment called ttk28 with the packages listed in `environment.yml`. 
-3. Activate the new environment: `conda activate ttk28`.
+1. Download and install the `uv` package manager (https://docs.astral.sh/uv/).
+2. Create a new virtual environment by running: `uv sync`. 
+This will create a new virtual environment in the folder `.venv` with the packages listed in `pyproject.toml`.
+3. Configure your IDE (Visual Studie Code, PyCharm, etc.) to use the new environment
 
 ## To run the Jupyter notebook
 
