@@ -12,6 +12,6 @@ This will create a new virtual environment in the folder `.venv` with the packag
 ## To run the Jupyter notebook
 
 1. First, download the dataset from Blackboard and copy it into the data folder. The file should be located at `data/well_data.csv`.
-2. Run the Jupyter notebooks in the `model/` folder. To run from the terminal: `uv run jupyter notebook model/flow_model.ipynb `
+2. Run Jupyter notebook: `uv run jupyter notebook`. The notebooks are located in the `src` folder.
 
 **NOTE: you are not permitted to publish or share the dataset!**
